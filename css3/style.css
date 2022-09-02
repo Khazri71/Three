@@ -693,7 +693,7 @@ border: 2px solid var(--main-color-8);
 }
 
 .subscribe .subscribe-content .subscribe-form{
-    flex-basis: 45%;
+    flex-basis: 65%;
 }
 .subscribe .subscribe-content .subscribe-form input[type="text"]{
     border: none;
@@ -707,7 +707,7 @@ border: 2px solid var(--main-color-8);
 
 
 .subscribe .subscribe-content .subscribe-text{
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 .subscribe .subscribe-content .subscribe-text p{
     color: var(--main-color-1);

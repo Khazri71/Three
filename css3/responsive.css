@@ -144,4 +144,12 @@
        }
     /*End Header*/
      
+    /*Start Section Subscribe*/
+    .subscribe .subscribe-content .subscribe-form input[type="text"]{
+        width: 60%;
+    }
+    .subscribe .subscribe-content .subscribe-text{
+        display: inline-flex;
+    }
+    /*End Section Subscribe*/
 }
