@@ -1,0 +1,147 @@
+
+/*Media Query*/
+@media (max-width : 767px){
+
+    /*Start Global Rules*/
+    
+.destinations-btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+   } 
+
+    /*End Global Rules*/
+    /*Start Header*/
+    header{
+        border-bottom: 2px solid var(--main-color-1);
+    
+    }
+    header .header-content{
+        border-bottom: none;
+    }
+    header .header-content nav ul{
+        display: none;
+    }
+    header .header-content nav >i:hover{
+        color:var(--main-color-7);
+    }
+    header .header-content nav >i:hover + ul{
+        display: flex;
+        flex-direction: column;
+        z-index: 3;
+        position: absolute;
+        background-color: var(--main-color-1);
+        left: 10%;
+        top:110%;
+        width: 80%;
+    }
+    header .header-content nav >i:hover + ul li{
+        padding-top: 15px;
+        padding: 20px 35px;
+    }
+
+    header .header-content nav ul li a{
+        color:var(--main-color-7);
+    }
+    header .header-content nav ul li a.active , header .header-content nav ul li a:hover{
+        color:var(--main-color-7);
+    }
+   
+    /*End Header*/
+
+
+    /*Start Section Home*/
+    .home .home-content .text-content{
+        width: 100%;
+        padding: 25px;
+    }
+    .home .home-content .sign i{
+        display: none;
+    }
+    /*End Section Home*/
+
+   
+
+    /*Start Section Articles*/
+   
+
+    .articles-bond .image-content{
+        display: none;
+    }
+    .articles-bond .text-content{
+        width: 100%;
+        
+      
+    }
+    /*End Section Articles*/
+
+
+    /*Start Section statistics*/
+    .statistics .statistics-content .statistic-content{
+        flex-direction: column;
+       
+    }
+    .statistics .statistics-content .statistic-content .statistic{
+       margin-bottom: 40px;
+    }
+    /*End Section statistics*/
+
+     /*Start Section Reviews and Rating*/
+     .reviews .reviews-cards{
+        flex-direction: column;
+        gap: 0px;        
+     }
+     /*End Section Reviews and Rating*/
+
+
+     /*Start Section Quote*/
+     .quote-bond blockquote{
+        width: 100%;
+     }
+     /*End Section Quote*/
+
+
+     /*Start Section Contact*/
+     .contact .contact-content{
+        flex-direction: column;
+     }
+     .contact .contact-content .info-content h2 , .contact .contact-content .info-content ul li{
+          text-align: center;
+          margin-top: 20px;
+     }
+     .contact .contact-content .info-content ul li{
+        text-align: center;
+     }
+     /*End Section Contact*/
+}
+
+/*Start Section Subscribe*/
+.subscribe .subscribe-content{
+    flex-direction: column;
+    gap: 25px;
+}
+
+.subscribe .subscribe-content .subscribe-form input[type="text"]{
+    width: 60%;
+}
+
+.subscribe .subscribe-content .subscribe-text{
+    display: none;
+}
+
+/*End Section Subscribe*/
+
+/*Start Footer*/
+
+
+/*End Footer*/
+/****************************************/
+
+@media (min-width : 768px){
+    /*Start Header*/
+    header .header-content nav > i{
+        display: none;  
+       }
+    /*End Header*/
+     
+}
